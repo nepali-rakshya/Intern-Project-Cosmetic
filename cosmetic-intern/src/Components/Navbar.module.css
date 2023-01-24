@@ -1,18 +1,17 @@
 .sidebar {
-  background: #ffff;
-  height: 90vh;
+  height: 80vh;
   font-size: 1rem;
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
+  /* padding: 0.5em; */
   justify-content: space-between;
 }
 
 .menu__list {
   list-style-type: none;
   margin-top: 2rem;
-  padding: 0.2em;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+  /* padding: 0.2em; */
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.521); */
 }
 
 .menu--list {
