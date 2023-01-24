@@ -1,0 +1,31 @@
+.sidebar {
+  background: #ffff;
+  height: 90vh;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+
+.menu__list {
+  list-style-type: none;
+  margin-top: 2rem;
+  padding: 0.2em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+}
+
+.menu--list {
+  text-decoration: none;
+  color: black;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon__list {
+  list-style: none;
+  margin-left: 0.7em;
+}
