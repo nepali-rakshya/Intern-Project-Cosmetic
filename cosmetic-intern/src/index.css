@@ -11,13 +11,10 @@ body {
 }
 
 .navbar {
-  padding: 0.5em 1.5em;
   color: black;
   border-bottom: 2px solid rgba(128, 128, 128, 0.349);
 }
 
 .nav--margin {
-  width: 100vw;
-  /* margin-left: auto; */
   text-align: center;
 }

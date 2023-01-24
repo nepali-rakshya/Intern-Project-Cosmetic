@@ -19,7 +19,7 @@ const Navbar = () => {
         {data[1].map((icons, index) => {
           return (
             <li className={NavCSS.icon__list} key={index}>
-              <img src={icons.img} alt="" style={{ width: "30px" }} />
+              <img src={icons.img} alt="" style={{ width: "35px" }} />
             </li>
           );
         })}
