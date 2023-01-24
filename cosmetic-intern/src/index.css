@@ -12,9 +12,15 @@ body {
 
 .navbar {
   color: black;
-  border-bottom: 2px solid rgba(128, 128, 128, 0.349);
+  background: rgba(255, 255, 255, 0.507);
 }
 
 .nav--margin {
   text-align: center;
 }
+
+/* .bg--blur {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(128, 128, 128, 0.247);
+} */
