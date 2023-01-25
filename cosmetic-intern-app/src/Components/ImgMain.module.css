@@ -8,10 +8,6 @@
   object-fit: cover;
 }
 
-.banner > .hero-slider-root {
-  background: red;
-}
-
 /* .banner::after {
   content: "";
   display: block;
