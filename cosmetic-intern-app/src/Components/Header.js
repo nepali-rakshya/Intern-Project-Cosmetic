@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             <div onMouseEnter={handleClick}>
               <button className={HeaderCSS.header__button}>
-                <img src="/img/menu.png" alt="menu-button" />
+                <img src="/img/menu1.png" alt="menu-button" />
               </button>
             </div>
           </nav>

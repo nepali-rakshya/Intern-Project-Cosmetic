@@ -14,7 +14,7 @@ const ImgMain = () => {
       <div className={ImgCSS.banner}>
         <HeroSlider
           width={"100vw"}
-          height={"80vh"}
+          height={"100vh"}
           autoplay
           controller={{
             slidingAnimation: "left_to_right",
