@@ -1,14 +1,13 @@
 import ImgCSS from "./ImgMain.module.css";
 import React, { createRef, useState } from "react";
 import HeroSlider, { Slide } from "hero-slider";
+import Background from "hero-slider/dist/components/Slide/Background";
 
-const bogliasco =
-  "https://images.unsplash.com/photo-1503236823255-94609f598e71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80";
-const countyClare =
-  "https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80";
-const craterRock =
-  "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=887&q=80";
-const giauPass = "https://i.imgur.com/8IuucQZ.jpg";
+const img1 = "/img/pic1.jpg";
+const img2 = "/img/pic2.jpg";
+const img3 = "/img/pic3.jpg";
+const img4 = "/img/pic4.jpg";
+const img5 = "/img/pic5.jpg";
 
 const ImgMain = () => {
   return (
@@ -24,36 +23,41 @@ const ImgMain = () => {
             initialSlide: 1,
             slidingDuration: 500,
             slidingDelay: 100,
-            onSliding: (nextSlide) =>
-              console.debug("onSliding(nextSlide): ", nextSlide),
-            onBeforeSliding: (previousSlide, nextSlide) =>
-              console.debug(
-                "onBeforeSliding(previousSlide, nextSlide): ",
-                previousSlide,
-                nextSlide
-              ),
-            onAfterSliding: (nextSlide) =>
-              console.debug("onAfterSliding(nextSlide): ", nextSlide),
+            //   onSliding: (nextSlide) =>
+            //     console.debug("onSliding(nextSlide): ", nextSlide),
+            //   onBeforeSliding: (previousSlide, nextSlide) =>
+            //     console.debug(
+            //       "onBeforeSliding(previousSlide, nextSlide): ",
+            //       previousSlide,
+            //       nextSlide
+            //     ),
+            //   onAfterSliding: (nextSlide) =>
+            //     console.debug("onAfterSliding(nextSlide): ", nextSlide),
           }}
         >
           <Slide
             background={{
-              backgroundImageSrc: bogliasco,
+              backgroundImageSrc: img1,
             }}
           />
           <Slide
             background={{
-              backgroundImageSrc: countyClare,
+              backgroundImageSrc: img2,
             }}
           />
           <Slide
             background={{
-              backgroundImageSrc: craterRock,
+              backgroundImageSrc: img3,
             }}
           />
           <Slide
             background={{
-              backgroundImageSrc: giauPass,
+              backgroundImageSrc: img4,
+            }}
+          />
+          <Slide
+            background={{
+              backgroundImageSrc: img5,
             }}
           />
         </HeroSlider>
