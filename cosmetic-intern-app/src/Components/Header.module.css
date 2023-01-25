@@ -13,3 +13,8 @@
   padding: 0.3em 1.5em;
   font-size: 1.7rem;
 }
+
+.header__logo {
+  font-size: 2rem;
+  font-weight: 800;
+}

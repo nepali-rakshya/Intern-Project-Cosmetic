@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="content">
       <Header />
-      {/* <ImgMain /> */}
+      <ImgMain />
     </div>
   );
 }

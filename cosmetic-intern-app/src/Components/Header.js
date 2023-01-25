@@ -14,7 +14,7 @@ const Header = () => {
   }
 
   function changeBgColor(e) {
-    e.target.style.background = "pink";
+    e.target.style.background = "rgba(255, 255, 255, 0.452)";
   }
 
   function changeBgColorAgain(e) {
