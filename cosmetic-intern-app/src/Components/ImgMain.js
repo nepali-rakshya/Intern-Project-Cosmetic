@@ -1,7 +1,6 @@
 import ImgCSS from "./ImgMain.module.css";
-import React, { createRef, useState } from "react";
+import React, { useState } from "react";
 import HeroSlider, { Slide } from "hero-slider";
-import Background from "hero-slider/dist/components/Slide/Background";
 
 const img1 = "/img/pic1.jpg";
 const img2 = "/img/pic2.jpg";
@@ -23,16 +22,6 @@ const ImgMain = () => {
             initialSlide: 1,
             slidingDuration: 500,
             slidingDelay: 100,
-            //   onSliding: (nextSlide) =>
-            //     console.debug("onSliding(nextSlide): ", nextSlide),
-            //   onBeforeSliding: (previousSlide, nextSlide) =>
-            //     console.debug(
-            //       "onBeforeSliding(previousSlide, nextSlide): ",
-            //       previousSlide,
-            //       nextSlide
-            //     ),
-            //   onAfterSliding: (nextSlide) =>
-            //     console.debug("onAfterSliding(nextSlide): ", nextSlide),
           }}
         >
           <Slide
