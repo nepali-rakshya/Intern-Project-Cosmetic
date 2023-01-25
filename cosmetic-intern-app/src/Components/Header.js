@@ -1,6 +1,18 @@
 import HeaderCSS from "./Header.module.css";
+import React, { useState } from "react";
+import SideBar from "./SideBar";
 
 const Header = () => {
+  const [isShown, setIsShown] = useState(false);
+
+  function handleClick() {
+    setIsShown((prevState) => (prevState = true));
+  }
+
+  function handleClickOut() {
+    setIsShown((prevState) => (prevState = false));
+  }
+
   function changeBgColor(e) {
     e.target.style.background = "pink";
   }
@@ -11,7 +23,7 @@ const Header = () => {
 
   return (
     <>
-      <header>
+      <header onClick={handleClickOut}>
         <div className={HeaderCSS["header--position"]}>
           <nav
             className={HeaderCSS.header}
@@ -21,13 +33,14 @@ const Header = () => {
             <div className={HeaderCSS.header__logo}>
               <a href="#">LOGO</a>
             </div>
-            <button className={HeaderCSS.header__button}>
-              <img src="/img/menu.png" alt="menu-button" />
-            </button>
+            <div onMouseEnter={handleClick}>
+              <button className={HeaderCSS.header__button}>
+                <img src="/img/menu.png" alt="menu-button" />
+              </button>
+            </div>
           </nav>
         </div>
-
-        <div></div>
+        {isShown && <SideBar />}
       </header>
     </>
   );
