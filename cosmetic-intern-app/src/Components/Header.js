@@ -13,23 +13,11 @@ const Header = () => {
     setIsShown((prevState) => (prevState = false));
   }
 
-  // function changeBgColor(e) {
-  //   e.target.style.background = "rgba(255, 255, 255, 0.452)";
-  // }
-
-  // function changeBgColorAgain(e) {
-  //   e.target.style.background = "transparent";
-  // }
-
   return (
     <>
       <header onClick={handleClickOut}>
         <div className={HeaderCSS["header--position"]}>
-          <nav
-            className={HeaderCSS.header}
-            // onMouseEnter={changeBgColor}
-            // onMouseLeave={changeBgColorAgain}
-          >
+          <nav className={HeaderCSS.header}>
             <div className={HeaderCSS.header__logo}>
               <a href="#">LOGO</a>
             </div>
