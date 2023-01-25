@@ -5,7 +5,7 @@ const SideBar = () => {
     <>
       <div className={SideBarCSS.sidebar}>
         <div className={SideBarCSS["sidebar--width"]}>
-          <div className="sidebar__page--link">
+          <div className={SideBarCSS["sidebar__pages--link"]}>
             <li>
               <a href="#">Home</a>
             </li>
@@ -19,18 +19,34 @@ const SideBar = () => {
               <a href="#">FAQ</a>
             </li>
           </div>
-          <div className="sidebar__meidas--link">
+          <div className={SideBarCSS["sidebar__medias--link"]}>
             <li>
-              <img src="/img/facebook.png" alt="facebook" />
+              <img
+                src="/img/facebook.png"
+                alt="facebook"
+                className={SideBarCSS.img}
+              />
             </li>
             <li>
-              <img src="/img/linkedIn.png" alt="linkedIn" />
+              <img
+                src="/img/linkedIn.png"
+                alt="linkedIn"
+                className={SideBarCSS.img}
+              />
             </li>
             <li>
-              <img src="/img/twitter.png" alt="twitter" />
+              <img
+                src="/img/twitter.png"
+                alt="twitter"
+                className={SideBarCSS.img}
+              />
             </li>
             <li>
-              <img src="/img/facebook.png" alt="twitter" />
+              <img
+                src="/img/facebook.png"
+                alt="twitter"
+                className={SideBarCSS.img}
+              />
             </li>
           </div>
         </div>

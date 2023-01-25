@@ -9,6 +9,36 @@
 
 .sidebar--width {
   margin-left: auto;
-  width: 35%;
+  width: 45%;
   background: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar__pages--link {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  margin-top: 1.5em;
+}
+
+.sidebar__pages--link > li {
+  padding: 2.5em 0 0.5em 2em;
+  border-bottom: 0.3px solid rgba(128, 128, 128, 0.192);
+  margin: 0 2em 0 2em;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.sidebar__medias--link {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  opacity: 0.9;
+  width: 30px;
+  margin-right: 10px;
 }
