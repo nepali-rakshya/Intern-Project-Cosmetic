@@ -11,7 +11,7 @@ const ImgMain = () => {
     <>
       <div className={ImgCSS.banner}>
         <HeroSlider
-          width={"100vw"}
+          className={ImgCSS.hero__slider}
           height={"70vh"}
           autoplay
           controller={{
@@ -23,16 +23,19 @@ const ImgMain = () => {
           }}
         >
           <Slide
+            style={{ objectFit: "cover", width: "100%", height: "100%" }}
             background={{
               backgroundImageSrc: img1,
             }}
           />
           <Slide
+            style={{ objectFit: "cover", width: "100%", height: "100%" }}
             background={{
               backgroundImageSrc: img2,
             }}
           />
           <Slide
+            style={{ objectFit: "cover", width: "100%", height: "100%" }}
             background={{
               backgroundImageSrc: img3,
             }}

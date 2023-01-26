@@ -1,10 +1,9 @@
 .footer {
-  padding: 1em 0.8em;
+  padding: 4em 5em;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  background: rgb(0, 0, 0);
+  position: relative;
+  background: rgba(29, 14, 14, 0.63);
   color: white;
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   font-weight: 100;
 }
