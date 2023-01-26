@@ -1,7 +1,7 @@
-import Header from "./Components/Header";
-import ImgMain from "./Components/ImgMain";
-import Footer from "./Components/Footer";
-import Content from "./Components/Content";
+import Header from "./Components/Header/Header";
+import ImgMain from "./Components/MainImage/ImgMain";
+import Footer from "./Components/Footer/Footer";
+import Content from "./Components/Content/Content";
 
 function App() {
   return (
