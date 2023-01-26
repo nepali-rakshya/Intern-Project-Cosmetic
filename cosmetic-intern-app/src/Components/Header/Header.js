@@ -5,7 +5,8 @@ import SideBar from "../Sidebar/SideBar";
 const Header = () => {
   const [isShown, setIsShown] = useState(false);
 
-  function handleClick() {
+  function handleClick(event) {
+    event.stopPropagation();
     setIsShown((prevState) => (prevState = true));
   }
 
@@ -21,7 +22,7 @@ const Header = () => {
             <div className={HeaderCSS.header__logo}>
               <a href="#">LOGO</a>
             </div>
-            <div onMouseEnter={handleClick}>
+            <div onClick={handleClick}>
               <button className={HeaderCSS.header__button}>
                 <img src="/img/menu1.png" alt="menu-button" />
               </button>
