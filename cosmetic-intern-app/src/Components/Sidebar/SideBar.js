@@ -13,10 +13,13 @@ const SideBar = () => {
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Contact us</a>
+              <a href="#">Career</a>
             </li>
             <li>
-              <a href="#">FAQ</a>
+              <a href="#">Products</a>
+            </li>
+            <li>
+              <a href="#">Categories</a>
             </li>
           </div>
           <div className={SideBarCSS["sidebar__medias--link"]}>

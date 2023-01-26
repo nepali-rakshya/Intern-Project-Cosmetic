@@ -1,10 +1,16 @@
 .banner {
   position: relative;
   top: 0;
-  height: 70vh;
+  height: 100%;
   width: 100%;
   z-index: -2;
-  opacity: 0.89;
+  color: white;
+}
+
+.hero__content {
+  position: relative;
+  /* z-index: 1; */
+  font-size: 5rem;
 }
 
 /* .hero__slider {
