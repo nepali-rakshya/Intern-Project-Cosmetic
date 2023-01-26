@@ -1,6 +1,6 @@
 import HeaderCSS from "./Header.module.css";
 import React, { useState } from "react";
-import SideBar from "./SideBar";
+import SideBar from "../Sidebar/SideBar";
 
 const Header = () => {
   const [isShown, setIsShown] = useState(false);
