@@ -6,7 +6,7 @@ import Title from "../MainImage/Title";
 import Subtitle from "../MainImage/Subtitle";
 
 const img1 = "/img/pic1.jpg";
-const img2 = "/img/pic2.jpg";
+// const img2 = "/img/pic2.jpg";
 const img3 = "/img/pic3.jpg";
 
 const ImgMain = () => {
@@ -26,10 +26,8 @@ const ImgMain = () => {
           >
             <Overlay>
               <Wrapper>
-                <Title>Basic Setup</Title>
-                <Subtitle>
-                  Check out the documentation for more advanced examples.
-                </Subtitle>
+                <Title>Beauty Kit</Title>
+                <Subtitle>Check out examples.</Subtitle>
               </Wrapper>
             </Overlay>
 
@@ -39,12 +37,12 @@ const ImgMain = () => {
                 backgroundImageSrc: img1,
               }}
             />
-            <Slide
+            {/* <Slide
               // style={{ objectFit: "contain", width: "100%", height: "100%" }}
               background={{
                 backgroundImageSrc: img2,
               }}
-            />
+            /> */}
             <Slide
               // style={{ objectFit: "contain", width: "100%", height: "100%" }}
               background={{
