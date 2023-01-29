@@ -27,7 +27,7 @@ const ImgMain = () => {
             <Overlay>
               <Wrapper>
                 <Title>Beauty Kit</Title>
-                <Subtitle>Check out examples.</Subtitle>
+                <Subtitle>Lorem ipsum dolor sit amet.</Subtitle>
               </Wrapper>
             </Overlay>
 
